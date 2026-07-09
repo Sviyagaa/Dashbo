@@ -1,0 +1,68 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Свияга · Дашборд соцсетей</title><style>
+*{box-sizing:border-box;margin:0}
+body{font-family:-apple-system,'Segoe UI',Roboto,system-ui,sans-serif;background:#f5f7fb;
+ color:#0f172a;font-size:14px;line-height:1.5}
+a{color:#2563eb;text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:#fff;border-bottom:1px solid #e7ebf3;padding:12px 24px;display:flex;
+ align-items:center;gap:22px;flex-wrap:wrap;position:sticky;top:0;z-index:5}
+.brand{font-weight:800;font-size:16px}.brand em{color:#2563eb;font-style:normal}
+.topbar nav{display:flex;gap:16px;flex-wrap:wrap}
+.topbar nav a{color:#475569;font-weight:600}.topbar nav a:hover{color:#2563eb}
+.wrap{max-width:1180px;margin:0 auto;padding:22px 24px 48px}
+h1{font-size:21px;margin:6px 0 2px}
+.sub{color:#64748b;margin-bottom:18px}
+.card{background:#fff;border:1px solid #e7ebf3;border-radius:14px;padding:18px 20px;
+ box-shadow:0 1px 3px rgba(16,24,40,.06);margin-bottom:18px}
+h2{font-size:15px;margin-bottom:12px}
+.chead{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;gap:10px}
+.chead h2{margin:0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:14px;
+ margin-bottom:18px}
+.card .kpis{margin-bottom:0}
+.kpis.three{grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}
+.kpis.four{grid-template-columns:repeat(auto-fit,minmax(120px,1fr))}
+.tile{background:#fff;border:1px solid #e7ebf3;border-radius:14px;padding:14px 16px;
+ box-shadow:0 1px 3px rgba(16,24,40,.06)}
+.tile.grey{background:#f8fafc;box-shadow:none}
+.tlabel{color:#64748b;font-size:12px;font-weight:600;text-transform:uppercase;
+ letter-spacing:.03em}
+.tval{font-size:26px;font-weight:800;margin:4px 0 2px;display:flex;align-items:center;gap:8px}
+.tsub{color:#94a3b8;font-size:12px;margin-top:6px}
+.muted{color:#94a3b8}
+.badge{font-size:11px;font-weight:700;border-radius:999px;padding:2px 9px;white-space:nowrap}
+.badge.up{background:#dcfce7;color:#15803d}.badge.down{background:#fee2e2;color:#b91c1c}
+.badge.live{background:#dcfce7;color:#15803d}.badge.nodata{background:#f1f5f9;color:#64748b}
+.chip{background:#eff6ff;color:#1d4ed8;border-radius:999px;padding:2px 9px;font-size:11px;
+ font-weight:600;margin:0 6px;white-space:nowrap}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px}
+.pcard{border:1px solid #e7ebf3;border-radius:12px;padding:12px 14px;background:#fbfcfe}
+.pname{font-weight:700}.pval{font-size:20px;font-weight:800;margin:4px 0 6px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.row2 .card{margin-bottom:18px}
+@media(max-width:860px){.row2{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{color:#64748b;font-size:11px;text-transform:uppercase;letter-spacing:.04em;text-align:left;
+ padding:6px 8px;border-bottom:1px solid #e7ebf3}
+td{padding:8px;border-bottom:1px solid #f1f5f9;vertical-align:top}
+tr:last-child td{border-bottom:none}
+.btn{background:#2563eb;color:#fff;border-radius:10px;padding:7px 14px;font-weight:700;
+ font-size:13px;white-space:nowrap}.btn:hover{background:#1d4ed8;text-decoration:none}
+.btn.ghost{background:#eff6ff;color:#1d4ed8}.btn.ghost:hover{background:#dbeafe}
+ul.plain{list-style:none;padding:0}ul.plain li{padding:8px 0;border-bottom:1px solid #f1f5f9}
+ul.plain li:last-child{border-bottom:none}
+ul.lead .cnum{float:right;font-weight:800}
+ul.recs{padding-left:18px}ul.recs li{margin-bottom:10px}
+.dots{margin-left:8px}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px}
+.dot.ok{background:#22c55e}.dot.fail{background:#ef4444}
+.empty{background:#f8fafc;border:1px dashed #cbd5e1;border-radius:10px;padding:14px;
+ color:#64748b}
+</style></head><body>
+<header class="topbar"><span class="brand">Свияга <em>· Соцсети HQ</em></span>
+<nav><a href="index.html">Главная</a><a href="content.html">Контент-план</a>
+<a href="posts.html">Публикации</a><a href="competitors.html">Конкуренты</a></nav></header>
+<div class="wrap"><h1>Дашборд соцсетей</h1>
+<p class="sub">Обновлено 09.07.2026 22:58 МСК · метрики без источника не показываем</p>
+<div class="kpis"><div class="tile"><div class="tlabel">Подписчики</div><div class="tval">4 586</div><div class="tsub">по снимку от 2026-07-03</div></div><div class="tile grey"><div class="tlabel">Охват</div><div class="tval muted">—</div><div class="tsub">нужны insights-токены площадок</div></div><div class="tile grey"><div class="tlabel">Просмотры</div><div class="tval muted">—</div><div class="tsub">нужны insights-токены площадок</div></div><div class="tile grey"><div class="tlabel">ER</div><div class="tval muted">—</div><div class="tsub">нужны insights-токены площадок</div></div><div class="tile grey"><div class="tlabel">Лиды</div><div class="tval muted">—</div><div class="tsub">нужна UTM-разметка</div></div><div class="tile grey"><div class="tlabel">Продажи из контента</div><div class="tval muted">—</div><div class="tsub">нужна UTM-разметка</div></div></div><section class="card"><h2>Площадки</h2><div class="pgrid"><div class="pcard"><div class="pname">VK</div><div class="pval">—</div><span class="badge nodata">нет данных</span></div><div class="pcard"><div class="pname">Telegram</div><div class="pval">—</div><span class="badge nodata">нет данных</span></div><div class="pcard"><div class="pname">YouTube</div><div class="pval">—</div><span class="badge nodata">нет данных</span></div><div class="pcard"><div class="pname">RuTube</div><div class="pval">—</div><span class="badge nodata">нет данных</span></div><div class="pcard"><div class="pname">Дзен</div><div class="pval">—</div><span class="badge nodata">нет данных</span></div><div class="pcard"><div class="pname">Instagram</div><div class="pval">4 586</div><span class="badge live">live</span></div><div class="pcard"><div class="pname">OK</div><div class="pval">—</div><span class="badge nodata">нет данных</span></div></div></section><div class="row2"><section class="card"><h2>Рост аудитории</h2><div class="empty">В снимках пока одна точка (2026-07-03) — график появится после следующего снимка cron-а в state/social_stats.json.</div></section><section class="card"><h2>AI-рекомендации</h2><ul class="recs"><li><b>Есть ошибки публикации</b> <span class="badge down">high</span><br><span class="muted">Неуспешных публикаций: 1. Проверить токены/API и повторить публикацию.</span></li><li><b>Добавить визуал</b> <span class="badge nodata">low</span><br><span class="muted">У поста «Узел паломар» нет изображения/обложки. Добавить изображение или обложку.</span></li></ul></section></div><section class="card"><div class="chead"><h2>Контент-календарь</h2><a class="btn" href="content.html">Открыть неделю →</a></div><table><thead><tr><th>Дата</th><th>Время</th><th>Канал</th><th>Формат</th><th>Тема</th><th>Статус</th></tr></thead><tbody><tr><td class="muted">Чт 09.07</td><td>12:00</td><td><span class="chip">Telegram</span></td><td>Пост</td><td>Шнур vs моно для джига</td><td><span class="badge nodata">черновик</span></td></tr><tr><td class="muted">Чт 09.07</td><td>12:00</td><td><span class="chip">Telegram</span></td><td>Сторис</td><td>Узел паломар</td><td><span class="badge nodata">черновик</span></td></tr><tr><td class="muted">Чт 09.07</td><td>12:00</td><td><span class="chip">Дзен</span></td><td>Пост</td><td>Шнур vs моно для джига</td><td><span class="badge nodata">черновик</span></td></tr><tr><td class="muted">Чт 09.07</td><td>12:00</td><td><span class="chip">VK</span></td><td>Сторис</td><td>Выбери тему следующего рилса</td><td><span class="badge nodata">черновик</span></td></tr><tr><td class="muted">Чт 09.07</td><td>12:00</td><td><span class="chip">Instagram</span></td><td>Пост</td><td>Ловить и отпускать: за и против</td><td><span class="badge nodata">черновик</span></td></tr><tr><td class="muted">Чт 09.07</td><td>14:00</td><td><span class="chip">VK</span></td><td>Пост</td><td>Шнур vs моно для джига</td><td><span class="badge nodata">черновик</span></td></tr><tr><td class="muted">Чт 09.07</td><td>14:00</td><td><span class="chip">VK</span></td><td>Сторис</td><td>Узел паломар</td><td><span class="badge nodata">черновик</span></td></tr><tr><td class="muted">Чт 09.07</td><td>14:00</td><td><span class="chip">OK</span></td><td>Пост</td><td>Шнур vs моно для джига</td><td><span class="badge nodata">черновик</span></td></tr></tbody></table></section><div class="row2"><section class="card"><h2>Топ публикации</h2><ul class="plain"><li><b>Щука в заливах Куйбышевки</b><span class="muted"> · 2026-05-30</span><span class="dots"><span class="dot ok" title="instagram"></span><span class="dot ok" title="telegram_channel"></span><span class="dot ok" title="vk"></span></span></li><li><b>Крючки под местного карпа</b><span class="muted"> · 2026-05-30</span><span class="dots"><span class="dot ok" title="instagram"></span><span class="dot ok" title="telegram_channel"></span><span class="dot fail" title="vk"></span></span></li></ul><div class="tsub">сортировка по дате — охваты появятся после подключения insights-API</div></section><section class="card"><div class="chead"><h2>Конкуренты</h2><a class="btn ghost" href="competitors.html">Все →</a></div><ul class="plain lead"><li><span class="muted">1.</span> <b>Vitalik Ignatyuk</b><span class="chip">YouTube</span><span class="cnum">2 900 000</span></li><li><span class="muted">2.</span> <b>Always Alone</b><span class="chip">YouTube</span><span class="cnum">1 170 000</span></li><li><span class="muted">3.</span> <b>Клуб рыбаков (Club Fishermen)</b><span class="chip">YouTube</span><span class="cnum">997 000</span></li><li><span class="muted">4.</span> <b>Рыбалка с Romario Agro (Роман Камозин)</b><span class="chip">YouTube</span><span class="cnum">871 000</span></li><li><span class="muted">5.</span> <b>Рыбалка | Охота</b><span class="chip">VK</span><span class="cnum">802 500</span></li><li><span class="muted">6.</span> <b>Assistance TV</b><span class="chip">YouTube</span><span class="cnum">791 000</span></li><li><span class="muted">7.</span> <b>Сибирский Странник (Руслан Павлов)</b><span class="chip">YouTube</span><span class="cnum">786 000</span></li><li><span class="muted">8.</span> <b>Рыбак</b><span class="chip">VK</span><span class="cnum">755 300</span></li></ul><div class="tsub">аудитория — срез (см. competitors.html), не live</div></section></div><section class="card"><h2>Задачи команды</h2><div class="kpis three"><div class="tile grey"><div class="tlabel">На согласовании</div><div class="tval muted">—</div><div class="tsub">статусы в БД пайплайна</div></div><div class="tile grey"><div class="tlabel">Принято ✅</div><div class="tval muted">—</div><div class="tsub">статусы в БД пайплайна</div></div><div class="tile grey"><div class="tlabel">Отклонено</div><div class="tval muted">—</div><div class="tsub">статусы в БД пайплайна</div></div></div><div class="tsub">Карточки на согласование приходят в Telegram-бот (✅ на карточке терминален — публикация вручную); счётчики статусов появятся, когда БД пайплайна станет доступна сборщику витрины.</div></section><section class="card"><h2>Реклама соцсетей</h2><div class="kpis four"><div class="tile grey"><div class="tlabel">Spend</div><div class="tval muted">—</div><div class="tsub">не подключено</div></div><div class="tile grey"><div class="tlabel">CPC</div><div class="tval muted">—</div><div class="tsub">не подключено</div></div><div class="tile grey"><div class="tlabel">CPA</div><div class="tval muted">—</div><div class="tsub">не подключено</div></div><div class="tile grey"><div class="tlabel">ROAS</div><div class="tval muted">—</div><div class="tsub">не подключено</div></div></div><div class="tsub">Таргет ВК / посевы — подключим отдельно; реклама маркетплейсов живёт в дашборде закупок.</div></section></div></body></html>
